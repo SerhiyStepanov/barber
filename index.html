@@ -32,7 +32,7 @@
               "
               src="./images/John-370.jpg"
               alt="John"
-              sizes=""
+              sizes="( min-width: 1280px ) 370px, ( min-width: 768px ) 450px, (min-width: 480px ) 418px"
             />
             <div class="master-content">
               <h3 class="master-title name">John Smith</h3>
@@ -70,7 +70,18 @@
             </div>
           </li>
           <li class="master-name">
-            <img src="" alt="" />
+            <img
+              srcset="
+                ./images/Michele-370.jpg 370w,
+                ./images/Michele-418.jpg 418w,
+                ./images/Michele-450.jpg 450w,
+                ./images/Michele-740.jpg 740w,
+                ./images/Michele-836.jpg 836w,
+                ./images/Michele-900.jpg 900w
+              "
+              src=""
+              alt=""
+            />
             <div class="master-content">
               <h3 class="master-title name">Michele Doe</h3>
               <p class="master-text">Extreme Barber</p>
