@@ -5,11 +5,25 @@
 }
 
 .master-section.text {
+  position: relative;
+  margin-left: 80px;
   font-weight: 600;
   font-size: 11px;
   line-height: 1.4;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+}
+
+.master-section.text::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: -80px;
+  transform: scaleY (50%);
+  width: 60px;
+  height: 1px;
+  background-color: #000;
 }
 
 .master-title {
