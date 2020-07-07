@@ -1,0 +1,54 @@
+.master-section {
+  padding-top: 84px;
+  padding-bottom: 84px;
+  background-color: #f7f7f7;
+}
+
+.master-section.text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.4;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.master-title {
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+}
+
+.master {
+  list-style: none;
+  padding-left: 0;
+}
+
+.master-title.name {
+  font-size: 18px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.master-text {
+  color: #ff6c00;
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.master-seti {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+.master-seti.link {
+  display: block;
+  width: 44px;
+  height: 44px;
+  background-color: red;
+  border-radius: 50%;
+}
