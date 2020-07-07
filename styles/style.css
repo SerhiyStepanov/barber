@@ -43,12 +43,25 @@
   display: flex;
   padding-left: 0;
   list-style: none;
+  justify-content: center;
+}
+
+.master-seti.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .master-seti.link {
-  display: block;
+  display: flex;
   width: 44px;
   height: 44px;
-  background-color: red;
+  align-items: center;
+  background-color: #fff;
   border-radius: 50%;
+}
+
+.master-seti.link:hover,
+.master-seti.link:focus {
+  fill: #ff6c00;
 }
