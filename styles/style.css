@@ -1,23 +1,32 @@
 body {
   font-family: "Open Sans";
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   body {
     width: 480px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   body {
     width: 768px;
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1280px) {
   body {
     width: 1280px;
   }
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 31px;
+  padding-right: 31px;
 }
 
 /* xxx */
@@ -28,18 +37,18 @@ body {
   background-color: #f7f7f7;
 }
 
+@media screen and (min-width: 481px) {
+  .master-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
 @media screen and (min-width: 769px) {
   .master-section {
     padding-top: 130px;
     padding-bottom: 130px;
   }
-}
-
-.container {
-  padding-left: 31px;
-  padding-right: 31px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 @media screen and (min-width: 481px) {
