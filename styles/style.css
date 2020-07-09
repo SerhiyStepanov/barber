@@ -56,6 +56,15 @@ a {
   text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 /*  xxx */
 
 .about.section {
@@ -78,6 +87,10 @@ a {
 }
 
 .about-section-text {
+  position: relative;
+  margin-left: 80px;
+  margin-bottom: 20px;
+
   font-weight: 600;
   font-size: 11px;
   line-height: 1.4;
@@ -85,7 +98,20 @@ a {
   text-transform: uppercase;
 }
 
+.about-section-text::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 1px;
+  top: 50%;
+  left: -80px;
+  transform: translateY(-50%);
+  background-color: #303030;
+}
+
 .about.title {
+  margin-bottom: 20px;
+
   font-weight: bold;
   font-size: 28px;
   line-height: 1.2;
@@ -93,12 +119,27 @@ a {
 }
 
 .about-first.text {
+  margin-bottom: 20px;
+
   font-weight: normal;
   font-size: 16px;
-  line-height: 26px;
-
-  /* or 162% */
+  line-height: 1.6;
   letter-spacing: 0.02em;
+}
+
+.about-second.text {
+  margin-bottom: 40px;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.button {
+  width: 160px;
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid #ff6c00;
+  border-radius: 25px;
 }
 
 /* xxx */
@@ -155,10 +196,10 @@ a {
   position: absolute;
   top: 50%;
   left: -80px;
-  transform: scaleY (50%);
   width: 60px;
   height: 1px;
-  background-color: #000;
+  transform: translateY(-50%);
+  background-color: #303030;
 }
 
 .master.title {
@@ -307,7 +348,7 @@ a {
   top: 25%;
   left: -80px;
   transform: translateY(-50%);
-  background-color: #000000;
+  background-color: #303030;
 }
 
 @media screen and (min-width: 481px) {
