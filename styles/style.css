@@ -52,14 +52,14 @@ body {
 }
 
 @media screen and (min-width: 481px) {
-  .container {
+  .master.container {
     padding-left: 159px;
     padding-right: 159px;
   }
 }
 
 @media screen and (min-width: 769px) {
-  .container {
+  .master.container {
     padding-left: 55px;
     padding-right: 55px;
   }
@@ -104,13 +104,13 @@ img {
   height: auto;
 }
 
-.master {
+.master-cart {
   list-style: none;
   padding-left: 0;
 }
 
 @media screen and (min-width: 769px) {
-  .master {
+  .master-cart {
     display: flex;
     margin: -15px;
   }
@@ -201,20 +201,20 @@ img {
   }
 }
 
-.portfolio-container {
+.portfolio.container {
   padding-left: 31px;
   padding-right: 31px;
 }
 
 @media screen and (min-width: 481px) {
-  .portfolio-container {
+  .portfolio.container {
     padding-left: 39px;
     padding-right: 39px;
   }
 }
 
 @media screen and (min-width: 769px) {
-  .portfolio-container {
+  .portfolio.container {
     padding-left: 55px;
     padding-right: 55px;
   }
@@ -256,12 +256,12 @@ img {
   height: auto;
 }
 
-.portfolio {
+.portfolio-foto {
   padding-left: 0;
 }
 
 @media screen and (min-width: 481px) {
-  .portfolio {
+  .portfolio-foto {
     display: flex;
     flex-wrap: wrap;
     margin: -15px;
