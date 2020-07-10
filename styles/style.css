@@ -22,9 +22,9 @@ body {
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .container {
-    width: 1280px;
+    width: 1200px;
   }
 }
 
@@ -150,21 +150,21 @@ p {
   background-color: #f7f7f7;
 }
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 768px) {
   .master.section {
     padding-top: 100px;
     padding-bottom: 100px;
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1200px) {
   .master.section {
     padding-top: 130px;
     padding-bottom: 130px;
   }
 }
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 768px) {
   .master.container {
     padding-left: 159px;
     padding-right: 159px;
@@ -173,8 +173,8 @@ p {
 
 @media screen and (min-width: 769px) {
   .master.container {
-    padding-left: 55px;
-    padding-right: 55px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -205,6 +205,7 @@ p {
 .master.title {
   margin-top: 0;
   margin-bottom: 44px;
+  font-family: "Raleway";
   font-weight: bold;
   font-size: 42px;
   line-height: 1.2;
@@ -294,14 +295,14 @@ p {
   background-color: #ffffff;
 }
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 768px) {
   .portfolio.section {
     padding-top: 100px;
     padding-bottom: 100px;
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1200px) {
   .portfolio.section {
     padding-top: 130px;
     padding-bottom: 130px;
@@ -313,7 +314,7 @@ p {
   padding-right: 31px;
 }
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 768px) {
   .portfolio.container {
     padding-left: 39px;
     padding-right: 39px;
@@ -322,8 +323,8 @@ p {
 
 @media screen and (min-width: 769px) {
   .portfolio.container {
-    padding-left: 55px;
-    padding-right: 55px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
