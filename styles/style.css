@@ -149,6 +149,12 @@ p {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .about-second-box {
+    min-width: 500px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .about-photo:not(:last-child) {
     margin-bottom: 30px;
@@ -156,7 +162,13 @@ p {
 }
 
 @media screen and (min-width: 1200px) {
-  .about-photo {
+  .about-photo:not(:last-child) {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .about-photo:not(:last-child) {
     margin-right: 30px;
   }
 }
