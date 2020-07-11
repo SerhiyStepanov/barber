@@ -243,6 +243,9 @@ p {
   background-color: #fff;
   border: 1px solid #ff6c00;
   border-radius: 25px;
+  cursor: pointer;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover,
@@ -390,9 +393,11 @@ p {
   border-radius: 50%;
 }
 
-.master-seti.link:hover,
-.master-seti.link:focus {
+.master-seti.link:hover .icon-seti,
+.master-seti.link:focus .icon-seti {
   fill: #ff6c00;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*    xxxxxxxxxxxxxxxxxxxxxxxxx       */
