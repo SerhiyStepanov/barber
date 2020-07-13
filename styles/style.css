@@ -94,7 +94,7 @@ h6,
 p {
   margin: 0;
 }
-/*  xxx */
+/*  about  */
 
 .about.section {
   padding-top: 84px;
@@ -254,7 +254,7 @@ p {
   background-color: #ff6c00;
 }
 
-/* xxx */
+/*   masters  */
 
 .master.section {
   padding-top: 84px;
@@ -400,7 +400,7 @@ p {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/*    xxxxxxxxxxxxxxxxxxxxxxxxx       */
+/*    portfolio       */
 
 .portfolio.section {
   padding-top: 84px;
@@ -506,4 +506,163 @@ p {
     width: calc((100% - 8 * 15px) / 4);
     margin: 15px;
   }
+}
+/*   footer */
+
+.page.footer {
+  padding-top: 84px;
+  padding-bottom: 84px;
+  background-color: #191c26;
+}
+
+.page.container {
+  padding-left: 31px;
+  padding-right: 31px;
+}
+
+.footer-record {
+  padding-bottom: 84px;
+}
+
+.footer-title {
+  margin-bottom: 44px;
+  display: block;
+  font-family: "Raleway";
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.form-field {
+  position: relative;
+  margin-bottom: 44px;
+  background-color: #191c26;
+  border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+}
+
+.form-label {
+  position: absolute;
+  display: block;
+  left: 0;
+  bottom: 8px;
+  transform: translateY(50%);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.2;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.4);
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  border: none;
+  color: rgba(157, 164, 189, 0.4);
+  background-color: #191c26;
+}
+
+.form-input.name {
+  margin-left: 40px;
+}
+
+.form-input.tel {
+  margin-left: 70px;
+}
+
+.form-coment {
+  position: relative;
+  margin-bottom: 44px;
+  border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+}
+
+.textarea-coment {
+  margin-left: 85px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.2;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.4);
+  background-color: #191c26;
+  border: none;
+}
+
+.label-coment {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+  margin-left: 0;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.2;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.4);
+}
+
+.footer.button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  background-color: #191c26;
+}
+
+.footer.button:hover {
+  background-color: #ff6c00;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-contaсt {
+  padding-top: 84px;
+  background-image: url(../images/);
+}
+
+.address {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.7;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+
+.address.span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.address.link.mail {
+  text-decoration: underline;
+}
+
+.footer-section-text {
+  position: relative;
+  display: block;
+  margin-bottom: 20px;
+  margin-left: 80px;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.4;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer-section-text::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: -80px;
+  width: 60px;
+  height: 1px;
+  background-color: #fff;
 }
