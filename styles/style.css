@@ -249,7 +249,7 @@ p {
 }
 
 .about-button:hover,
-about-.button:focus {
+.about-.button:focus {
   color: #fff;
   background-color: #ff6c00;
 }
