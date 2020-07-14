@@ -573,10 +573,14 @@ p {
 
 .form-input {
   display: block;
-  width: 80%;
+  max-width: 100%;
   border: none;
-  color: rgba(157, 164, 189, 0.4);
+  color: #fff;
   background-color: #191c26;
+}
+
+.form-input:focus-within .form-label {
+  color: #fff;
 }
 
 .form-input.name {
@@ -691,5 +695,5 @@ p {
   left: -80px;
   width: 60px;
   height: 1px;
-  background-color: #fff;
+  background-color: #9da4bd;
 }
