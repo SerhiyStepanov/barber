@@ -557,6 +557,10 @@ p {
   background-color: #191c26;
 }
 
+.form-field:focus-within .form-label {
+  color: #fff;
+}
+
 .form-label {
   position: absolute;
   display: inline-block;
@@ -577,10 +581,6 @@ p {
   border: none;
   color: #fff;
   background-color: #191c26;
-}
-
-.form-input:focus-within .form-label {
-  color: #fff;
 }
 
 .form-input.name {
