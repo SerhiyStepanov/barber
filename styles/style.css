@@ -755,3 +755,50 @@ p {
   height: 1px;
   background-color: #9da4bd;
 }
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  height: 138px;
+}
+
+.footer-seti::before {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 1px;
+  top: 50%;
+  left: -100px;
+  background-color: #9da4bd;
+}
+
+.footer-seti {
+  position: relative;
+  display: flex;
+  margin-left: auto;
+  padding-left: 0;
+}
+
+.footer-seti-item + .footer-seti-item {
+  margin-left: 40px;
+}
+
+.footer-seti-link {
+  display: block;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.37;
+  letter-spacing: 0.2em;
+  color: #303030;
+}
+
+.copyright {
+  margin-top: 79px;
+  margin-bottom: 44px;
+  margin-left: 18px;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.4;
+  letter-spacing: 0.2em;
+  color: #9da4bd;
+}
