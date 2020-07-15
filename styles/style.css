@@ -553,6 +553,7 @@ p {
 @media screen and (min-width: 768px) {
   .footer-title {
     text-align: start;
+    width: 100%;
   }
 }
 
@@ -717,6 +718,7 @@ p {
 @media screen and (min-width: 768px) {
   .footer-contaсt {
     display: flex;
+    flex-wrap: wrap;
   }
 }
 
