@@ -529,13 +529,27 @@ p {
   background-color: #191c26;
 }
 
-.page.container {
+.footer-container {
   padding-left: 31px;
   padding-right: 31px;
 }
 
+@media screen and (min-width: 1200px) {
+  .footer-container {
+    display: flex;
+  }
+}
+
 .footer-record {
   padding-bottom: 84px;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-record {
+    width: 50%;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 
 .footer-title {
@@ -722,9 +736,23 @@ p {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .footer-contaсt {
+    padding-top: 0;
+    padding-left: 100px;
+    padding-right: 105px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .footer-contaсt-box {
     width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-contaсt-box {
+    width: 100%;
   }
 }
 
